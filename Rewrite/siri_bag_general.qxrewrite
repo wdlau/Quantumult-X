@@ -1,5 +1,0 @@
-# Redirect Siri Suggestions Service 
-# Bag (iOS/macOS)
-(^https?:\/\/api.*\.smoot\.apple\.)(com|cn)(\/bag.*)(cc=[A-Z]{2})(.*) url 302 $1com$3cc=US$5
-# General Spotlight & Look Up Search (iOS/macOS)
-(^https?:\/\/api.*\.smoot\.apple\.)(com|cn)(\/search.*)(cc=[A-Z]{2})(.*) url 302 $1com$3cc=US$5
